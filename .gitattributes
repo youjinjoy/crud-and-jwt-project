@@ -1,0 +1,5 @@
+package-lock.json eol=lf
+package.json eol=lf
+src/App.js eol=lf
+.gitignore eol=lf
+build.gradle eol=lf

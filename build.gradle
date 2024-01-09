@@ -30,7 +30,17 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	//	https://central.sonatype.com/artifact/com.google.guava/guava
 	implementation group: 'com.google.guava', name: 'guava', version: '33.0.0-jre'
+
+//	implementation 'org.springframework.boot:spring-boot-starter-security'
+//	testImplementation 'org.springframework.security:spring-security-test'
+//	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	implementation 'io.jsonwebtoken:jjwt-api:0.12.3'
+	implementation 'io.jsonwebtoken:jjwt-impl:0.12.3'
+	implementation 'io.jsonwebtoken:jjwt-jackson:0.12.3'
+
 }
+
 
 tasks.named('test') {
 	useJUnitPlatform()
