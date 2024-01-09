@@ -3,3 +3,4 @@ package.json eol=lf
 src/App.js eol=lf
 .gitignore eol=lf
 build.gradle eol=lf
+src/main/resources/application.properties eol=lf

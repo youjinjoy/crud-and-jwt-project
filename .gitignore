@@ -38,3 +38,4 @@ out/
 
 ### 개인적으로 추가 ###
 node_modules/
+src/main/resources/application.properties
